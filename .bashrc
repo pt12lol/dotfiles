@@ -10,3 +10,4 @@ PS1=$PS1'[\e[0;36m\]\D{%Y-%m-%d} \e[1;31m\]\t\e[m\]] \e[1;35m\]\w\e[m\]\n '
 PS1=$PS1'\e[0;33m\]\$\e[m\] '
 
 alias ls='ls -la --color'
+alias c='find | grep -v "/\.\|/target\|idea"'
