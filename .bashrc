@@ -11,3 +11,4 @@ PS1=$PS1'\e[1;31m\]${?#0}\e[m\]\n \e[1;36m\]\$\e[m\] '
 
 alias ls='ls -la --color'
 alias sc-tree='find | grep -v "/target\|idea\|\.git"'
+alias vim-nn='vim -c "set nonu"'
