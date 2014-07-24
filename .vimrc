@@ -10,3 +10,4 @@ syntax on
 colorscheme ron
 :highlight ExtraWhitespace ctermbg=red guibg=red
 :match ExtraWhitespace /\t\|\s\+$/
+source ~/.vim/highlights/scala.vim
