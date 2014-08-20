@@ -1,5 +1,5 @@
 if [ -f /etc/bashrc ]; then
-  . /etc/bashrc
+    . /etc/bashrc
 fi
 
 # login and hostname
