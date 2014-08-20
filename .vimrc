@@ -1,4 +1,6 @@
-set colorcolumn=80
+source ~/.vim/highlights/scala.vim
+let g:neocomplete#enable_at_startup = 1
+set colorcolumn=80,120
 set tabstop=4
 set expandtab
 set paste
@@ -10,4 +12,3 @@ syntax on
 colorscheme ron
 :highlight ExtraWhitespace ctermbg=red guibg=red
 :match ExtraWhitespace /\t\|\s\+$/
-source ~/.vim/highlights/scala.vim
