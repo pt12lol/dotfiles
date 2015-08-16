@@ -1,0 +1,7 @@
+colorscheme:pt12lol
+cs_re:cyan:^DEBUG.*$
+cs_re:green:^INFO.*$
+cs_re:yellow:^WARN.*$
+cs_re:red:^ERROR.*$
+cs_re:red,,bold:^FATAL.*$
+cs_re:red,,bold:^CRITICAL.*$
