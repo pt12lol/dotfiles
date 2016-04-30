@@ -1,5 +1,3 @@
-source ~/.vim/highlights/scala.vim
-let g:neocomplete#enable_at_startup = 1
 set colorcolumn=80,120
 set tabstop=4
 set expandtab
