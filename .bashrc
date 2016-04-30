@@ -20,8 +20,11 @@ PS1=$PS1"${COL_CDIR}\w${COL0} ${COL_RSLT}$"'{?#0}'"${COL0}\n "
 # command prompt
 PS1=$PS1"${COL_PMPT}\$${COL0} "
 
-alias ls='ls -la --color'
-alias sc-tree='find | grep -v "/target\|idea\|\.git"'
-alias vim-nn='vim -c "set nonu"'
-alias vim-80='vim -c "set colorcolumn=80"'
-alias vim-120='vim -c "set colorcolumn=120"'
+alias gprp='find . -type f -exec dos2unix {} \; && git perm-reset'
+alias search='grep -IHrn --exclude-dir=.git'
+
+# docker
+alias d-start='sudo service docker start'
+alias d-stop='sudo service docker stop'
+alias d-net='sudo sysctl -w net.ipv4.ip_forward=1'
+alias d-rm='sudo rm -rf /var/lib/docker'
