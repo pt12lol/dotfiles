@@ -6,6 +6,7 @@ set number
 set ruler
 set nocompatible
 set backspace=2
+set lazyredraw
 syntax on
 colorscheme ron
 highlight ExtraWhitespace ctermbg=red guibg=red
