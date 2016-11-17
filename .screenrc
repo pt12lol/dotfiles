@@ -1,0 +1,14 @@
+autodetach on
+startup_message off
+altscreen on
+hardstatus alwayslastline
+hardstatus string '%{Wk} %-Lw%{+b kW} %n*%f %t %{-}%+Lw%=%D %Y-%m-%d %c:%s '
+screen -t bash
+screen -t git
+screen -t deploy
+screen -t vim
+screen -t aws
+screen -t postgres
+screen -t ipython
+screen -t bpython
+screen -t nodejs
