@@ -9,6 +9,6 @@ screen -t deploy
 screen -t vim
 screen -t aws
 screen -t postgres
-screen -t ipython
-screen -t bpython
+screen -t python
 screen -t nodejs
+screen -t watch
